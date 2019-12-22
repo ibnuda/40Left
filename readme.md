@@ -6,5 +6,4 @@
 
 ## Why?
 
-This
 ![this](consideritasreq.png)
