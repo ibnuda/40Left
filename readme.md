@@ -2,7 +2,7 @@
 
 ## What?
 
-![this](40Left.jpg)
+![this](40Left.png)
 
 ## Why?
 
