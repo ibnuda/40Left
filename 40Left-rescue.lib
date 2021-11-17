@@ -1,26 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# rick-kicad-lib_diode
+# ProMicro-promicro
 #
-DEF rick-kicad-lib_diode diode 0 40 Y Y 1 F N
-F0 "diode" -150 -50 60 V V C CNN
-F1 "rick-kicad-lib_diode" 150 -50 60 V I C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-P 2 0 1 0 -100 0 100 0 N
-P 4 0 1 0 0 0 -100 -100 100 -100 0 0 F
-X ~ 1 0 50 50 D 60 60 1 1 P
-X ~ 2 0 -150 50 U 60 60 1 1 P
-ENDDRAW
-ENDDEF
-#
-# rick-kicad-lib_promicro
-#
-DEF rick-kicad-lib_promicro U 0 40 Y Y 1 F N
+DEF ProMicro-promicro U 0 40 Y Y 1 F N
 F0 "U" 0 950 60 H V C CNN
-F1 "rick-kicad-lib_promicro" 0 -550 60 H V C CNN
+F1 "ProMicro-promicro" 0 -550 60 H V C CNN
 F2 "" 100 -1050 60 H V C CNN
 F3 "" 100 -1050 60 H V C CNN
 DRAW
@@ -49,21 +34,6 @@ X SDA 6 -700 250 200 R 50 50 1 1 B
 X D4 7 -700 150 200 R 50 50 1 1 B
 X C6 8 -700 50 200 R 50 50 1 1 B
 X D7 9 -700 -50 200 R 50 50 1 1 B
-ENDDRAW
-ENDDEF
-#
-# rick-kicad-lib_switch
-#
-DEF rick-kicad-lib_switch switch 0 40 N N 1 F N
-F0 "switch" 150 110 50 H V C CNN
-F1 "rick-kicad-lib_switch" 0 -80 50 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-S -170 50 170 60 0 1 0 N
-P 4 0 1 0 -40 60 -30 90 30 90 40 60 N
-X 1 1 -300 0 200 R 60 60 0 1 P I
-X 2 2 300 0 200 L 60 60 0 1 P I
 ENDDRAW
 ENDDEF
 #
